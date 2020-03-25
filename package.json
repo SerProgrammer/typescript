@@ -1,0 +1,27 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpileOnly src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerProgrammer/typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerProgrammer/typescript/issues"
+  },
+  "homepage": "https://github.com/SerProgrammer/typescript#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "prettier": "^1.19.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.4"
+  }
+}
